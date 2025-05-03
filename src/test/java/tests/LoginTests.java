@@ -16,7 +16,6 @@ public class LoginTests extends BaseTest {
 		loginpage.login();
 		System.out.println("Title of this page is "+ driver.getTitle());
 		Assert.assertEquals(driver.getTitle(),"Just a moment...");
-		
 	}
 
 }
